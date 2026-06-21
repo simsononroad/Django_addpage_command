@@ -32,7 +32,7 @@ pip install jinja2
 Because the script uses relative paths, it assumes your project is organized as follows:
 
 ```text
-your_django_project/
+your_django_app/
 │
 ├── management/
 │   └── commands/
@@ -128,7 +128,7 @@ pip install jinja2
 A parancs relatív útvonalakat használ, így az alábbi struktúrát feltételezi:
 
 ```text
-your_django_project/
+a_te_django_alkalmazásod/
 │
 ├── management/
 │   └── commands/
