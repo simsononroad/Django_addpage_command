@@ -37,10 +37,10 @@ your_django_project/
 ├── management/
 │   └── commands/
 │       └── addpage.py  <-- This script
-│
-├── temps/              <-- Storage for your Jinja2 templates
-│   ├── urls_temp.jinja
-│   └── view_temp.jinja
+│   └── temps/          <-- Storage for your Jinja2 templates
+│       ├── urls_temp.jinja
+│       └── view_temp.jinja
+|
 │
 ├── templates/          <-- Destination directory for new HTML files
 │
@@ -133,10 +133,9 @@ your_django_project/
 ├── management/
 │   └── commands/
 │       └── addpage.py  <-- Ez a script
-│
-├── temps/              <-- Itt kell lenniük a Jinja2 sablonoknak
-│   ├── urls_temp.jinja
-│   └── view_temp.jinja
+│   └── temps/          <-- Itt kell lenniük a Jinja2 sablonoknak
+│       ├── urls_temp.jinja
+│       └── view_temp.jinja
 │
 ├── templates/          <-- Ide fognak készülni a HTML fájlok
 │
